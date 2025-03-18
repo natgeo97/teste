@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot DGuardian</title>
+
+  <!-- Estilos personalizados DHL -->
+  <style>
+    df-messenger {
+      --df-messenger-bot-message: #FFD700; /* Mensagem do bot em amarelo */
+      --df-messenger-user-message: #D40511; /* Mensagem do usuário em vermelho */
+      --df-messenger-user-message-font-color: #FFFFFF; /* Texto da mensagem do usuário em branco */
+      --df-messenger-chat-background-color: #FFF9E3; /* Fundo do chat em amarelo clarinho */
+      --df-messenger-button-titlebar-color: #D40511; /* Barra do título em vermelho */
+      --df-messenger-font-color: #FFFFFF; /* Texto da barra do título em branco */
+      --df-messenger-send-icon: #FFFFFF; /* Ícone de enviar em branco */
+    }
+  </style>
+
+</head>
+<body>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="DGuardian"
+    agent-id="0e08ef10-1d77-401e-a0ff-e49389d31ded"
+    language-code="pt-br"
+  https://natgeo97.github.io/teste/dguardian-logo.png>
+  </df-messenger>
+</body>
+</html>
